@@ -7,7 +7,9 @@ const cors = require('cors');
 const morgan = require('morgan');   
 const compression = require('compression'); // ⚡ Optimized payload sizing
 const rateLimit = require('express-rate-limit'); // 🛑 Anti-brute force
-const authRoutes = require('./modules/auth/auth.routes');
+
+// 🤖 Load the Master Automated Router
+const apiRouter = require('./modules/index.routes');
 
 const app = express();
 
@@ -34,7 +36,6 @@ app.use(express.json());
 
 // 🩺 Detailed Health Check Endpoint
 app.get('/health', (req, res) => {
-  // Check the operational state of MongoDB connection
   const dbStatus = mongoose.connection.readyState === 1 ? 'UP' : 'DOWN';
   
   const healthStatus = {
@@ -48,21 +49,19 @@ app.get('/health', (req, res) => {
     },
     system: {
       memoryUsage: {
-        rss: `${(process.memoryUsage().rss / 1024 / 1024).toFixed(2)} MB`, // Resident Set Size
+        rss: `${(process.memoryUsage().rss / 1024 / 1024).toFixed(2)} MB`,
         heapTotal: `${(process.memoryUsage().heapTotal / 1024 / 1024).toFixed(2)} MB`,
         heapUsed: `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`
       }
     }
   };
 
-  // If the database is down, return a 503 Service Unavailable status code
   const statusCode = dbStatus === 'UP' ? 200 : 503;
   res.status(statusCode).json(healthStatus);
 });
 
-// Modular Routes Hook
-app.use('/api/auth', authRoutes);
-
+// 🚀 One Single Route Connection Point for All Modules
+app.use('/api', apiRouter);
 
 // MongoDB connection
 if (!process.env.MONGODB_URI) {
@@ -76,3 +75,8 @@ mongoose.connect(process.env.MONGODB_URI)
     console.error('❌ DB Connection Error:');
     console.error(err.message);
   });
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`🚀 Server listening on port ${PORT} in ${process.env.NODE_ENV || 'development'} mode`);
+});
