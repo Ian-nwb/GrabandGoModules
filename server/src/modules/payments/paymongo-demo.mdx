@@ -20,20 +20,28 @@ This module demonstrates a working **PayMongo** integration using **GCash / QRPh
 
 ## Payment Flow
 
-### 1. Checkout Page
+### 1. Checkout Page — Select QRPh Payment Method
 
-The user lands on a PayMongo-hosted checkout page at `checkout.paymongo.com/{session_id}`.
+The user lands on a PayMongo-hosted checkout page at `checkout.paymongo.com/{session_id}`. The right panel prompts them to **Scan QRPh code to pay**.
 
-- The order summary is shown on the left (item, subtotal, fees)
-- The payment panel is on the right
+- Order summary on the left (subtotal, fees — Free in this case)
+- Payment method panel on the right with a **Continue** button
 
 > **Tip:** PayMongo's hosted checkout handles the UI for you — no need to build a custom checkout UI unless you want full control.
+
+![PayMongo Checkout — QRPh Payment Method](./paymongo-imgs/checkout-qrph.png)
+
+---
+
+### 2. Checkout Page — Payment Success
+
+After scanning the QR code and completing payment, the same checkout URL updates to show the confirmation screen.
 
 ![PayMongo Checkout Success](./paymongo-imgs/checkout-success.png)
 
 ---
 
-### 2. GCash Payment Authorization
+### 3. GCash Payment Authorization
 
 The user selects **GCash** as the payment method inside the GCash app. The app shows:
 
@@ -46,7 +54,7 @@ The user selects **GCash** as the payment method inside the GCash app. The app s
 
 ---
 
-### 3. Payment Confirmation (GCash App)
+### 4. Payment Confirmation (GCash App)
 
 After tapping pay, GCash shows a success receipt:
 
@@ -67,7 +75,7 @@ A push notification is also sent:
 
 ---
 
-### 4. PayMongo Checkout Success Screen
+### 5. PayMongo Checkout Success Screen
 
 The checkout page updates to show:
 
@@ -83,7 +91,7 @@ The user is automatically redirected back to the merchant app after a short coun
 
 ---
 
-### 5. PayMongo Dashboard — Payments List
+### 6. PayMongo Dashboard — Payments List
 
 In the PayMongo dashboard under **Payments → All Payments**, the transaction appears:
 
@@ -95,7 +103,7 @@ In the PayMongo dashboard under **Payments → All Payments**, the transaction a
 
 ---
 
-### 6. PayMongo Dashboard — Payment Detail & Fee Breakdown
+### 7. PayMongo Dashboard — Payment Detail & Fee Breakdown
 
 Clicking into the payment shows the full breakdown:
 
