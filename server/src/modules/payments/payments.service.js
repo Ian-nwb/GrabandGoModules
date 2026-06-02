@@ -1,15 +1,16 @@
 // src/modules/payments/payments.service.js
 const axios = require('axios');
+const crypto = require('crypto');
 
 const SECRET_KEY = process.env.PAYMONGO_SECRET_KEY;
-
-// PayMongo requires the Secret Key to be Base64 encoded as a Basic Auth header
 const authHeader = Buffer.from(`${SECRET_KEY}:`).toString('base64');
 
+/**
+ * Creates a hosted PayMongo Checkout Session for GCash, Maya, or Cards
+ */
 const createCheckoutSession = async (amount, description = 'Modular App Purchase') => {
   try {
-    // PayMongo processes amounts in cents (e.g., ₱100.00 must be sent as 10000)
-    const amountInCents = Math.round(amount * 100);
+    const amountInCents = Math.round(amount * 100); // PayMongo operates in centavos
 
     const response = await axios.post(
       'https://api.paymongo.com/v1/checkout_sessions',
@@ -28,8 +29,8 @@ const createCheckoutSession = async (amount, description = 'Modular App Purchase
                 quantity: 1
               }
             ],
-            payment_method_types: ['gcash', 'maya', 'card'], // Grab-and-go payment local channels
-            success_url: 'http://localhost:5000/success', // Swap with your frontend success page URL later
+            payment_method_types: ['gcash', 'paymaya', 'card', 'qrph'], 
+            success_url: 'http://localhost:5000/success', 
             cancel_url: 'http://localhost:5000/cancel'
           }
         }
@@ -42,7 +43,6 @@ const createCheckoutSession = async (amount, description = 'Modular App Purchase
       }
     );
 
-    // This returns the checkout URL where you must redirect the user
     return {
       sessionId: response.data.data.id,
       checkoutUrl: response.data.data.attributes.checkout_url
@@ -53,6 +53,28 @@ const createCheckoutSession = async (amount, description = 'Modular App Purchase
   }
 };
 
+/**
+ * Validates that incoming webhook payloads genuinely originated from PayMongo
+ */
+const verifyWebhookSignature = (signatureHeader, rawBody, webhookSecret) => {
+  try {
+    const parts = signatureHeader.split(',');
+    const timestamp = parts[0].split('=')[1];
+    const paymongoSignature = parts[2].split('=')[1];
+
+    const dataToSign = timestamp + '.' + rawBody;
+    const computedSignature = crypto
+      .createHmac('sha256', webhookSecret)
+      .update(dataToSign)
+      .digest('hex');
+
+    return computedSignature === paymongoSignature;
+  } catch (err) {
+    return false;
+  }
+};
+
 module.exports = {
-  createCheckoutSession
+  createCheckoutSession,
+  verifyWebhookSignature
 };
