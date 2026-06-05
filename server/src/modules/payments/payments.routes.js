@@ -4,10 +4,10 @@ const router = express.Router();
 const paymentsController = require('./payments.controller');
 const { protect } = require('../../middleware/auth');
 
-// 🔐 Secured Checkout Link Generation
+//  Secured Checkout Link Generation
 router.post('/checkout', protect, paymentsController.checkout);
 
-// 📡 Open Webhook Event Channel (Server-to-Server Only)
+//  Open Webhook Event Channel (Server-to-Server Only)
 router.post('/webhook', paymentsController.handleWebhook);
 
 module.exports = router;

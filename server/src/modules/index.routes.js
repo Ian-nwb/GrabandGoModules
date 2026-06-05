@@ -19,7 +19,7 @@ fs.readdirSync(__dirname).forEach((item) => {
       
       // Mounts dynamically: e.g., /auth maps to auth.routes.js, /payments to payments.routes.js
       router.use(`/${item}`, featureRoutes);
-      console.log(`📦 Auto-mounted module: /api/${item}`);
+      console.log(` Auto-mounted module: /api/${item}`);
     }
   }
 });

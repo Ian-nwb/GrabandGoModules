@@ -1,10 +1,10 @@
-# 📂 Modular Architecture & Package Manifest
+#  Modular Architecture & Package Manifest
 
 This file documents the purpose and role of every package installed in this grab-and-go backend repository. The packages have been carefully chosen to handle **security, data validation, performance, database management, and development ergonomics** for scalable, self-contained modules.
 
 ---
 
-## 🚨 Critical Architectural Note: CommonJS vs. ESM
+##  Critical Architectural Note: CommonJS vs. ESM
 
 Your `package.json` contains:
 
@@ -14,15 +14,15 @@ Your `package.json` contains:
 
 **What this means:** Node.js treats this repository as an ES Module (ESM) environment.
 
-> ❌ Standard CommonJS syntax (`const express = require('express');` / `module.exports = ...`) will throw syntax errors out of the box.
+>  Standard CommonJS syntax (`const express = require('express');` / `module.exports = ...`) will throw syntax errors out of the box.
 
-> ✅ Modern ESM syntax must be used instead (`import express from 'express';` / `export default ...`).
+>  Modern ESM syntax must be used instead (`import express from 'express';` / `export default ...`).
 
-> 💡 If you prefer to continue using `require()` and `module.exports`, simply delete the `"type": "module"` line from your `package.json`.
+>  If you prefer to continue using `require()` and `module.exports`, simply delete the `"type": "module"` line from your `package.json`.
 
 ---
 
-## 🛠️ The Module Breakdown
+## ️ The Module Breakdown
 
 ### 1. Core Framework & Error Management
 
@@ -100,7 +100,7 @@ Miscellaneous, micro-scoped tools required for day-to-day backend processes.
 
 ---
 
-## 🏎️ Development Ecosystem
+## ️ Development Ecosystem
 
 | Package | Purpose |
 |---|---|

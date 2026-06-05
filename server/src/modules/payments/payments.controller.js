@@ -50,7 +50,7 @@ const handleWebhook = async (req, res) => {
       const sessionId = checkoutSessionObj.id;
       const totalPaid = checkoutSessionObj.attributes.amount / 100;
 
-      console.log(`💰 SUCCESS: Checkout Session ${sessionId} was paid ₱${totalPaid}!`);
+      console.log(` SUCCESS: Checkout Session ${sessionId} was paid ₱${totalPaid}!`);
     }
 
     res.status(200).json({ received: true });

@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const initChatSocket = (io) => {
   
-  // 🔐 Socket Authentication Middleware
+  //  Socket Authentication Middleware
   io.use((socket, next) => {
     const token = socket.handshake.auth.token || socket.handshake.headers['authorization'];
     
@@ -23,14 +23,14 @@ const initChatSocket = (io) => {
     }
   });
 
-  // 📡 Connection Established
+  //  Connection Established
   io.on('connection', (socket) => {
-    console.log(`🔌 Live WebSocket connected: User ${socket.user.id}`);
+    console.log(` Live WebSocket connected: User ${socket.user.id}`);
 
     // User joins a specific conversation channel
     socket.on('join_room', (roomId) => {
       socket.join(roomId);
-      console.log(`👤 User ${socket.user.id} entered chatroom: ${roomId}`);
+      console.log(` User ${socket.user.id} entered chatroom: ${roomId}`);
     });
 
     // Listens for a new live chat transmission
@@ -56,7 +56,7 @@ const initChatSocket = (io) => {
 
     // Cleanup when a browser tab closes
     socket.on('disconnect', () => {
-      console.log(`❌ WebSocket disconnected: User ${socket.user.id}`);
+      console.log(` WebSocket disconnected: User ${socket.user.id}`);
     });
   });
 };
