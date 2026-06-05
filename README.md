@@ -1,6 +1,6 @@
 ﻿# GrabAndGoModules CJS
 
-A **grab-and-go module library** for the Centaim project. Each module lives in its own self-contained folder — just copy the folder into your project and it's ready to use.
+A **grab-and-go module library**. Each module lives in its own self-contained folder — just copy the folder into your project and it's ready to use.
 
 ---
 
