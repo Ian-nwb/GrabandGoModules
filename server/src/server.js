@@ -1,143 +1,108 @@
-// src/server.js
 require('dotenv').config();
 const cluster = require('cluster');
 const os = require('os');
 const express = require('express');
 const mongoose = require('mongoose');
-const helmet = require('helmet');   
-const cors = require('cors');       
-const morgan = require('morgan');   
-const compression = require('compression'); 
-const rateLimit = require('express-rate-limit'); 
+const helmet = require('helmet');
+const cors = require('cors');
+const morgan = require('morgan');
+const compression = require('compression');
+const rateLimit = require('express-rate-limit');
+const fs = require('fs');
+const path = require('path');
 
-// ==========================================
-// 1. PRIMARY PROCESS: Core Spawner
-// ==========================================
+// New Imports
+const { v4: uuidv4 } = require('uuid');
+const hpp = require('hpp');
+const mongoSanitize = require('express-mongo-sanitize');
+const winston = require('winston');
+
+// Ensure storage directory exists
+const logDir = path.join(__dirname, 'storage');
+if (!fs.existsSync(logDir)) fs.mkdirSync(logDir);
+
+// Setup Logger: Writing to file
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: path.join(logDir, 'app.log') })
+  ]
+});
+
+// Global Uncaught Exception Handler
+process.on('uncaughtException', (err) => {
+  logger.error('UNCAUGHT EXCEPTION! Shutting down...', { message: err.message, stack: err.stack });
+  process.exit(1);
+});
+
 if (cluster.isPrimary) {
   const numCPUs = os.cpus().length;
-  console.log(` Primary System Process ${process.pid} is running.`);
-  console.log(` Forking application across ${numCPUs} CPU cores...`);
+  logger.info(`Primary System Process ${process.pid} is running.`);
+  for (let i = 0; i < numCPUs; i++) cluster.fork();
 
-  // Fork a worker for each CPU core
-  for (let i = 0; i < numCPUs; i++) {
-    cluster.fork();
-  }
-
-  // Restart workers if they crash unexpectedly
-  cluster.on('exit', (worker, code, signal) => {
-    console.error(` Worker process ${worker.process.pid} died (Code: ${code}, Signal: ${signal}). Spawning replacement...`);
+  cluster.on('exit', (worker) => {
+    logger.error(`Worker ${worker.process.pid} died. Spawning replacement...`);
     cluster.fork();
   });
-
 } else {
-  // ==========================================
-  // 2. WORKER PROCESS: Actual Express Instance
-  // ==========================================
   const app = express();
   const apiRouter = require('./modules/index.routes');
 
-  // Trust upstream reverse proxy (Nginx, AWS ALB, Cloudflare) for accurate rate limiting
-  if (process.env.NODE_ENV === 'production') {
-    app.set('trust proxy', 1);
-  }
+  if (process.env.NODE_ENV === 'production') app.set('trust proxy', 1);
 
-  // Global Security & Optimization Middleware
+  // Security Middleware
   app.use(helmet());
   app.use(cors());
-  app.use(compression()); 
-  app.use(express.json({ limit: '10kb' })); // Anti-payload bloating limit
-
-  if (process.env.NODE_ENV === 'development') {
-    app.use(morgan('dev')); 
-  }
-
-  // Production-optimized Rate Limiter
-  const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, 
-    max: 100, 
-    message: { error: 'Too many requests from this IP, please try again later.' },
-    standardHeaders: true, 
-    legacyHeaders: false, 
+  app.use(compression());
+  app.use(express.json({ limit: '10kb' }));
+  
+  app.use((req, res, next) => {
+    req.id = req.headers['x-request-id'] || uuidv4();
+    res.setHeader('x-request-id', req.id);
+    next();
   });
-  app.use('/api/', limiter);
 
-  //  Detailed Health Check Endpoint
+  app.use(hpp());
+  app.use(mongoSanitize());
+
+  if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
+
+  app.use('/api/', rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
+
+  // RESTORED: Detailed Health Check
   app.get('/health', (req, res) => {
     const dbStatus = mongoose.connection.readyState === 1 ? 'UP' : 'DOWN';
-    
     const healthStatus = {
       status: dbStatus === 'UP' ? 'OK' : 'DEGRADED',
       timestamp: new Date().toISOString(),
-      environment: process.env.NODE_ENV || 'development',
-      uptime: `${process.uptime().toFixed(2)}s`,
-      workerPid: process.pid, // Identifies which worker handled the check
-      services: { database: dbStatus, server: 'UP' },
-      system: {
-        memoryUsage: {
-          rss: `${(process.memoryUsage().rss / 1024 / 1024).toFixed(2)} MB`,
-          heapTotal: `${(process.memoryUsage().heapTotal / 1024 / 1024).toFixed(2)} MB`,
-          heapUsed: `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`
-        }
-      }
+      workerPid: process.pid,
+      memoryUsage: process.memoryUsage()
     };
-
     res.status(dbStatus === 'UP' ? 200 : 503).json(healthStatus);
   });
 
-  //  Application Routes
   app.use('/api', apiRouter);
 
-  //  Centralized Global Error Handling Middleware
+  // Global Error Handler
   app.use((err, req, res, next) => {
-    const statusCode = err.statusCode || 500;
-    res.status(statusCode).json({
-      status: 'error',
-      message: err.message || 'Internal Server Error',
-      ...(process.env.NODE_ENV === 'development' && { stack: err.stack })
-    });
+    logger.error(`Error [${req.id}]: ${err.message}`);
+    res.status(err.statusCode || 500).json({ status: 'error', message: err.message });
   });
 
-  //  Database Connection with Pool Tuning
-  if (!process.env.MONGODB_URI) {
-    console.error(' CRITICAL ERROR: MONGODB_URI is undefined.');
-    process.exit(1);
-  }
-
-  const mongooseOptions = {
-    maxPoolSize: 50,           // Up to 50 concurrent DB connections per worker
-    minPoolSize: 10,           // Keeps 10 connections warm
-    socketTimeoutMS: 45000, 
-    serverSelectionTimeoutMS: 5000, 
-  };
-
-  mongoose.connect(process.env.MONGODB_URI, mongooseOptions)
+  mongoose.connect(process.env.MONGODB_URI, { maxPoolSize: 50 })
     .then(() => {
-      console.log(` Worker ${process.pid} connected to MongoDB.`);
-      // Start server only after successful DB connection
-      const PORT = process.env.PORT || 5000;
-      const server = app.listen(PORT, () => {
-        console.log(` Worker ${process.pid} listening on port ${PORT}`);
-      });
+      logger.info(`Worker ${process.pid} connected to DB.`);
+      const server = app.listen(process.env.PORT || 5000);
 
-      //  Graceful Shutdown Logic
       process.on('SIGTERM', () => {
-        console.log(` Worker ${process.pid} received SIGTERM. Closing down...`);
-        server.close(() => {
-          mongoose.connection.close(false, () => {
-            console.log(` Worker ${process.pid} database connection closed.`);
-            process.exit(0);
-          });
-        });
+        logger.info(`Worker ${process.pid} closing.`);
+        server.close(() => mongoose.connection.close(() => process.exit(0)));
       });
-
-      process.on('unhandledRejection', (err) => {
-        console.error(` Unhandled Rejection in Worker ${process.pid}:`, err);
-        server.close(() => process.exit(1));
-      });
-
     })
     .catch(err => {
-      console.error(` Worker ${process.pid} DB Connection Error:`, err.message);
+      logger.error('DB Connection Error:', err);
       process.exit(1);
     });
 }
