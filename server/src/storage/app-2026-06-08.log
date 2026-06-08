@@ -63,3 +63,20 @@
 {"level":"error","message":"Worker 2844 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.238Z"}
 {"level":"error","message":"Worker 18912 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.247Z"}
 {"level":"info","message":"Primary System Process 17616 is running.","timestamp":"2026-06-08T14:14:23.607Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:25.859Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.070Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:25.955Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.193Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.076Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.322Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.143Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.372Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.203Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.503Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.291Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.576Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.321Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.618Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:14:26.434Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:14:26.644Z"}
+{"level":"info","message":"Primary System Process 26112 is running.","timestamp":"2026-06-08T14:17:07.590Z"}
