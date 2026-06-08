@@ -38,3 +38,5 @@ build/
 .env
 
 /src/generated/prisma
+
+app.log
