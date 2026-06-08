@@ -55,3 +55,11 @@
 {"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:09:01.154Z"}
 {"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-08T14:09:01.070Z"}
 {"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-08T14:09:01.230Z"}
+{"level":"error","message":"Worker 25496 died. Spawning replacement...","timestamp":"2026-06-08T14:14:18.899Z"}
+{"level":"info","message":"Primary System Process 3940 is running.","timestamp":"2026-06-08T14:14:19.737Z"}
+{"level":"error","message":"Worker 23108 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.097Z"}
+{"level":"error","message":"Worker 21048 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.120Z"}
+{"level":"error","message":"Worker 5884 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.183Z"}
+{"level":"error","message":"Worker 2844 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.238Z"}
+{"level":"error","message":"Worker 18912 died. Spawning replacement...","timestamp":"2026-06-08T14:14:22.247Z"}
+{"level":"info","message":"Primary System Process 17616 is running.","timestamp":"2026-06-08T14:14:23.607Z"}
