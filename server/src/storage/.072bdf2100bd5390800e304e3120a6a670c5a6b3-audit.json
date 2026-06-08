@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Ian\\Desktop\\Work\\GenPurpose\\server\\src\\storage\\.072bdf2100bd5390800e304e3120a6a670c5a6b3-audit.json",
+    "files": [
+        {
+            "date": 1780926970497,
+            "name": "C:\\Users\\Ian\\Desktop\\Work\\GenPurpose\\server\\src\\storage\\app-2026-06-08.log",
+            "hash": "3a9fa60e64abbf5c61279e8e5792e76ecab0020852d3a957c651230d1045f44c"
+        }
+    ],
+    "hashType": "sha256"
+}

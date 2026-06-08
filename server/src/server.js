@@ -10,25 +10,28 @@ const compression = require('compression');
 const rateLimit = require('express-rate-limit');
 const fs = require('fs');
 const path = require('path');
-
-// New Imports
 const { v4: uuidv4 } = require('uuid');
 const hpp = require('hpp');
 const mongoSanitize = require('express-mongo-sanitize');
 const winston = require('winston');
+require('winston-daily-rotate-file'); // Required for rotation
 
 // Ensure storage directory exists
 const logDir = path.join(__dirname, 'storage');
 if (!fs.existsSync(logDir)) fs.mkdirSync(logDir);
 
-// Setup Logger: Writing to file
+// Setup Logger: Daily Rotation
+const transport = new winston.transports.DailyRotateFile({
+  filename: path.join(logDir, 'app-%DATE%.log'),
+  datePattern: 'YYYY-MM-DD',
+  maxSize: '20m',
+  maxFiles: '14d'
+});
+
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: path.join(logDir, 'app.log') })
-  ]
+  transports: [new winston.transports.Console(), transport]
 });
 
 // Global Uncaught Exception Handler
@@ -50,8 +53,6 @@ if (cluster.isPrimary) {
   const app = express();
   const apiRouter = require('./modules/index.routes');
 
-  if (process.env.NODE_ENV === 'production') app.set('trust proxy', 1);
-
   // Security Middleware
   app.use(helmet());
   app.use(cors());
@@ -59,28 +60,20 @@ if (cluster.isPrimary) {
   app.use(express.json({ limit: '10kb' }));
   
   app.use((req, res, next) => {
-    req.id = req.headers['x-request-id'] || uuidv4();
+    req.id = uuidv4();
     res.setHeader('x-request-id', req.id);
     next();
   });
 
   app.use(hpp());
   app.use(mongoSanitize());
-
   if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
   app.use('/api/', rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 
-  // RESTORED: Detailed Health Check
+  // Health Check
   app.get('/health', (req, res) => {
-    const dbStatus = mongoose.connection.readyState === 1 ? 'UP' : 'DOWN';
-    const healthStatus = {
-      status: dbStatus === 'UP' ? 'OK' : 'DEGRADED',
-      timestamp: new Date().toISOString(),
-      workerPid: process.pid,
-      memoryUsage: process.memoryUsage()
-    };
-    res.status(dbStatus === 'UP' ? 200 : 503).json(healthStatus);
+    res.status(200).json({ status: 'OK', pid: process.pid, memory: process.memoryUsage() });
   });
 
   app.use('/api', apiRouter);
@@ -93,16 +86,7 @@ if (cluster.isPrimary) {
 
   mongoose.connect(process.env.MONGODB_URI, { maxPoolSize: 50 })
     .then(() => {
-      logger.info(`Worker ${process.pid} connected to DB.`);
       const server = app.listen(process.env.PORT || 5000);
-
-      process.on('SIGTERM', () => {
-        logger.info(`Worker ${process.pid} closing.`);
-        server.close(() => mongoose.connection.close(() => process.exit(0)));
-      });
-    })
-    .catch(err => {
-      logger.error('DB Connection Error:', err);
-      process.exit(1);
+      process.on('SIGTERM', () => server.close(() => process.exit(0)));
     });
 }
