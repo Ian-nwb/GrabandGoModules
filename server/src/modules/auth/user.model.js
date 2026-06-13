@@ -34,10 +34,9 @@ ProfileSchema.virtual('fullName').get(function() {
 });
 
 // PASSWORD SECURITY: Hash before saving
-UserSchema.pre('save', async function(next) {
-    if (!this.isModified('password')) return next();
+UserSchema.pre('save', async function() {
+    if (!this.isModified('password')) return;
     this.password = await bcrypt.hash(this.password, 10);
-    next();
 });
 
 // PASSWORD SECURITY: Comparison method

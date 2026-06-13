@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret';
 
-const registerUser = async (email, password) => {
+const registerUser = async (email, password, profile) => {
   const userExists = await User.findOne({ email });
   if (userExists) {
     const err = new Error('User already exists');
@@ -11,9 +11,8 @@ const registerUser = async (email, password) => {
     throw err;
   }
 
-  // Model hook handles the hashing automatically!
-  const newUser = await User.create({ email, password });
-  return { id: newUser._id, email: newUser.email };
+  const newUser = await User.create({ email, password, profile });
+  return { id: newUser._id, email: newUser.email, profile: newUser.profile };
 };
 
 const loginUser = async (email, password) => {

@@ -1,0 +1,850 @@
+{"level":"info","message":"Primary 20492 is running — spawning 8 workers.","timestamp":"2026-06-12T23:27:26.089Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-12T23:27:26.203Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.778Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.816Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.039Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.672Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.700Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.022Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.749Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.790Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.021Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.641Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.695Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.023Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.672Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.714Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.042Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.797Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.822Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.097Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.847Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.902Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.144Z"}
+{"level":"info","message":"Worker 22272 connected to MongoDB.","timestamp":"2026-06-12T23:27:29.318Z"}
+{"level":"info","message":"Worker 24704 connected to MongoDB.","timestamp":"2026-06-12T23:27:29.317Z"}
+{"level":"info","message":"Worker 16784 connected to MongoDB.","timestamp":"2026-06-12T23:27:29.318Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:27:28.942Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:27:28.961Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:27:29.248Z"}
+{"level":"info","message":"Worker 9700 connected to MongoDB.","timestamp":"2026-06-12T23:27:29.337Z"}
+{"level":"info","message":"Worker 21048 connected to MongoDB.","timestamp":"2026-06-12T23:27:29.581Z"}
+{"level":"info","message":"Worker 24256 connected to MongoDB.","timestamp":"2026-06-12T23:27:30.009Z"}
+{"level":"info","message":"Worker 9448 connected to MongoDB.","timestamp":"2026-06-12T23:27:30.026Z"}
+{"level":"info","message":"Worker 27380 connected to MongoDB.","timestamp":"2026-06-12T23:27:30.106Z"}
+{"level":"error","message":"Worker 24704 died. Spawning replacement...","timestamp":"2026-06-12T23:43:12.372Z"}
+{"level":"info","message":"Primary 8980 is running — spawning 8 workers.","timestamp":"2026-06-12T23:43:14.391Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-12T23:43:14.505Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.962Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.989Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.188Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.963Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.984Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.192Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.962Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.986Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.962Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.986Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.975Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.995Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:16.964Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:16.989Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.201Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:17.040Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:17.052Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.215Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:43:17.112Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:43:17.121Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:43:17.259Z"}
+{"level":"info","message":"Worker 6012 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.442Z"}
+{"level":"info","message":"Worker 20412 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.437Z"}
+{"level":"info","message":"Worker 6396 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.440Z"}
+{"level":"info","message":"Worker 6012 HTTP server ready.","timestamp":"2026-06-12T23:43:17.472Z"}
+{"level":"info","message":"Worker 27624 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.477Z"}
+{"level":"info","message":"Worker 18160 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.483Z"}
+{"level":"info","message":"Worker 26140 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.480Z"}
+{"level":"info","message":"Worker 6396 HTTP server ready.","timestamp":"2026-06-12T23:43:17.487Z"}
+{"level":"info","message":"Worker 28240 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.488Z"}
+{"level":"info","message":"Worker 18160 HTTP server ready.","timestamp":"2026-06-12T23:43:17.502Z"}
+{"level":"info","message":"Worker 20412 HTTP server ready.","timestamp":"2026-06-12T23:43:17.494Z"}
+{"level":"info","message":"Worker 32 connected to MongoDB.","timestamp":"2026-06-12T23:43:17.500Z"}
+{"level":"info","message":"Worker 27624 HTTP server ready.","timestamp":"2026-06-12T23:43:17.509Z"}
+{"level":"info","message":"Worker 26140 HTTP server ready.","timestamp":"2026-06-12T23:43:17.531Z"}
+{"level":"info","message":"Worker 28240 HTTP server ready.","timestamp":"2026-06-12T23:43:17.532Z"}
+{"level":"info","message":"Worker 32 HTTP server ready.","timestamp":"2026-06-12T23:43:17.533Z"}
+{"level":"info","message":"Primary 6472 is running — spawning 8 workers.","timestamp":"2026-06-12T23:46:01.951Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-12T23:46:02.019Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.031Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.128Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.341Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.217Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.381Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:03.954Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.092Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.352Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.176Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.195Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.400Z"}
+{"level":"info","message":"Worker 23680 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.533Z"}
+{"level":"info","message":"Worker 23680 HTTP server ready.","timestamp":"2026-06-12T23:46:04.551Z"}
+{"level":"info","message":"Worker 28636 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.572Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.174Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.208Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.403Z"}
+{"level":"info","message":"Worker 25232 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.581Z"}
+{"level":"info","message":"Worker 17588 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.591Z"}
+{"level":"info","message":"Worker 28636 HTTP server ready.","timestamp":"2026-06-12T23:46:04.596Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.262Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.281Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.516Z"}
+{"level":"info","message":"Worker 25232 HTTP server ready.","timestamp":"2026-06-12T23:46:04.614Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.208Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.446Z"}
+{"level":"info","message":"Worker 17588 HTTP server ready.","timestamp":"2026-06-12T23:46:04.622Z"}
+{"level":"info","message":"Worker 27612 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.639Z"}
+{"level":"info","message":"Worker 27612 HTTP server ready.","timestamp":"2026-06-12T23:46:04.658Z"}
+{"level":"info","message":"Worker 20796 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.693Z"}
+{"level":"info","message":"Worker 26992 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.696Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:46:04.326Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:46:04.346Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:46:04.602Z"}
+{"level":"info","message":"Worker 20796 HTTP server ready.","timestamp":"2026-06-12T23:46:04.734Z"}
+{"level":"info","message":"Worker 26992 HTTP server ready.","timestamp":"2026-06-12T23:46:04.741Z"}
+{"level":"info","message":"Worker 26680 connected to MongoDB.","timestamp":"2026-06-12T23:46:04.776Z"}
+{"level":"info","message":"Worker 26680 HTTP server ready.","timestamp":"2026-06-12T23:46:04.789Z"}
+{"level":"error","message":"Worker 23680 died. Spawning replacement...","timestamp":"2026-06-12T23:47:00.288Z"}
+{"level":"info","message":"Primary 19932 is running — spawning 8 workers.","timestamp":"2026-06-12T23:47:01.390Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-12T23:47:01.460Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.289Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.303Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.450Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.314Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.335Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.464Z"}
+{"level":"info","message":"Worker 19148 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.549Z"}
+{"level":"info","message":"Worker 19148 HTTP server ready.","timestamp":"2026-06-12T23:47:03.569Z"}
+{"level":"info","message":"Worker 6988 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.576Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.381Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.394Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.511Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.377Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.398Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.519Z"}
+{"level":"info","message":"Worker 6988 HTTP server ready.","timestamp":"2026-06-12T23:47:03.617Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.405Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.436Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.570Z"}
+{"level":"info","message":"Worker 11596 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.658Z"}
+{"level":"info","message":"Worker 24256 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.662Z"}
+{"level":"info","message":"Worker 11596 HTTP server ready.","timestamp":"2026-06-12T23:47:03.674Z"}
+{"level":"info","message":"Worker 24256 HTTP server ready.","timestamp":"2026-06-12T23:47:03.679Z"}
+{"level":"info","message":"Worker 6408 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.682Z"}
+{"level":"info","message":"Worker 6408 HTTP server ready.","timestamp":"2026-06-12T23:47:03.699Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.489Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.512Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.665Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.502Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.516Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.676Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:03.519Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:03.533Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:03.677Z"}
+{"level":"info","message":"Worker 1184 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.761Z"}
+{"level":"info","message":"Worker 27312 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.761Z"}
+{"level":"info","message":"Worker 1184 HTTP server ready.","timestamp":"2026-06-12T23:47:03.767Z"}
+{"level":"info","message":"Worker 27312 HTTP server ready.","timestamp":"2026-06-12T23:47:03.770Z"}
+{"level":"info","message":"Worker 18264 connected to MongoDB.","timestamp":"2026-06-12T23:47:03.775Z"}
+{"level":"info","message":"Worker 18264 HTTP server ready.","timestamp":"2026-06-12T23:47:03.786Z"}
+{"level":"info","message":"Primary 25080 is running — spawning 8 workers.","timestamp":"2026-06-12T23:47:24.941Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-12T23:47:25.021Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.030Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.058Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.209Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.022Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.048Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.225Z"}
+{"level":"info","message":"Worker 26480 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.324Z"}
+{"level":"info","message":"Worker 26480 HTTP server ready.","timestamp":"2026-06-12T23:47:27.350Z"}
+{"level":"info","message":"Worker 11864 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.355Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.076Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.118Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.276Z"}
+{"level":"info","message":"Worker 11864 HTTP server ready.","timestamp":"2026-06-12T23:47:27.378Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.150Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.167Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.299Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.124Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.177Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.338Z"}
+{"level":"info","message":"Worker 7004 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.434Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.174Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.194Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.334Z"}
+{"level":"info","message":"Worker 7004 HTTP server ready.","timestamp":"2026-06-12T23:47:27.460Z"}
+{"level":"info","message":"Worker 14572 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.475Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.179Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.199Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.358Z"}
+{"level":"info","message":"Worker 14572 HTTP server ready.","timestamp":"2026-06-12T23:47:27.497Z"}
+{"level":"info","message":"Worker 25056 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.514Z"}
+{"level":"info","message":"Worker 11612 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.519Z"}
+{"level":"info","message":"Worker 18460 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.526Z"}
+{"level":"info","message":"Worker 25056 HTTP server ready.","timestamp":"2026-06-12T23:47:27.536Z"}
+{"level":"info","message":"Worker 11612 HTTP server ready.","timestamp":"2026-06-12T23:47:27.540Z"}
+{"level":"info","message":"Worker 18460 HTTP server ready.","timestamp":"2026-06-12T23:47:27.546Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:47:27.361Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:47:27.414Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:47:27.587Z"}
+{"level":"info","message":"Worker 12432 connected to MongoDB.","timestamp":"2026-06-12T23:47:27.636Z"}
+{"level":"info","message":"Worker 12432 HTTP server ready.","timestamp":"2026-06-12T23:47:27.650Z"}
+{"level":"error","message":"Worker 14572 died. Spawning replacement...","timestamp":"2026-06-12T23:49:24.536Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:49:30.669Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:49:30.676Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:49:30.729Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:49:30.777Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:49:30.784Z"}
+{"level":"error","message":"Error [98f5d68d-c082-4a38-b4c7-08944043240d]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:49:36.208Z"}
+{"level":"error","message":"Error [8d0fd619-4d1e-4bab-aceb-40261c9b1eee]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:49:40.816Z"}
+{"level":"error","message":"Error [25815ee5-a74c-4887-b4d7-e765d1fa824a]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:54:41.847Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:55:31.857Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:55:31.877Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:55:32.030Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:55:32.182Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:55:32.202Z"}
+{"level":"error","message":"Error [07b2573f-9169-44ae-89f9-591a6c4e4efb]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:55:36.173Z"}
+{"level":"error","message":"Error [7b2d3ba0-deeb-4eee-bcec-efc1b70baafe]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:55:37.402Z"}
+{"level":"error","message":"Error [3e40f530-ebc6-455a-ba4c-1a570bffef34]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:55:38.639Z"}
+{"level":"error","message":"Error [11728203-f7e6-40e0-b778-fc14d84ecb38]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:55:45.239Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:55:59.916Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:55:59.925Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:56:00.049Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:56:00.179Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:56:00.193Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:56:01.175Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:56:01.179Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:56:01.230Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:56:01.289Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:56:01.397Z"}
+{"level":"error","message":"Error [341bf06f-1278-40fc-9708-836ee4a3aa0c]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:56:06.979Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:57:43.339Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:57:43.344Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:57:43.404Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:57:43.466Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:57:43.472Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:57:49.428Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:57:49.436Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:57:49.499Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:57:49.544Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:57:49.549Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:58:06.953Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:58:06.958Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:58:07.014Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:58:07.066Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:58:07.074Z"}
+{"level":"error","message":"Error [undefined]: User validation failed: profile: Path `profile` is required.","timestamp":"2026-06-12T23:58:11.794Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:58:38.132Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:58:38.137Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:58:38.195Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:58:38.309Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:58:38.318Z"}
+{"level":"error","message":"Error [undefined]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-12T23:58:38.771Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:58:44.210Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:58:44.215Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:58:44.267Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:58:44.306Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:58:44.311Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-12T23:58:49.306Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-12T23:58:49.314Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-12T23:58:49.397Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-12T23:58:49.454Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-12T23:58:49.477Z"}
+{"level":"error","message":"Error [e04cedda-79c2-44d6-aeb4-77bf9e21352b]: User validation failed: profile: Path `profile` is required.","timestamp":"2026-06-12T23:58:49.638Z"}
+{"level":"error","message":"Error [e7992fd6-9469-423c-980f-e3477bb75db2]: User validation failed: profile: Path `profile` is required.","timestamp":"2026-06-12T23:59:28.938Z"}
+{"level":"info","message":"Primary 6760 is running — spawning 8 workers.","timestamp":"2026-06-13T00:01:08.672Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:01:08.745Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.038Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.087Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.362Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.081Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.150Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.385Z"}
+{"level":"info","message":"Worker 23192 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.590Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.159Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.225Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.451Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.174Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.232Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.451Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.086Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.175Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.441Z"}
+{"level":"info","message":"Worker 23192 HTTP server ready.","timestamp":"2026-06-13T00:01:11.609Z"}
+{"level":"info","message":"Worker 22212 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.625Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.166Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.231Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.459Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.316Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.514Z"}
+{"level":"info","message":"Worker 22212 HTTP server ready.","timestamp":"2026-06-13T00:01:11.677Z"}
+{"level":"info","message":"Worker 24704 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.706Z"}
+{"level":"info","message":"Worker 10552 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.712Z"}
+{"level":"info","message":"Worker 13436 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.729Z"}
+{"level":"info","message":"Worker 24704 HTTP server ready.","timestamp":"2026-06-13T00:01:11.741Z"}
+{"level":"info","message":"Worker 17164 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.742Z"}
+{"level":"info","message":"Worker 29260 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.756Z"}
+{"level":"info","message":"Worker 13436 HTTP server ready.","timestamp":"2026-06-13T00:01:11.760Z"}
+{"level":"info","message":"Worker 10552 HTTP server ready.","timestamp":"2026-06-13T00:01:11.774Z"}
+{"level":"info","message":"Worker 17164 HTTP server ready.","timestamp":"2026-06-13T00:01:11.797Z"}
+{"level":"info","message":"Worker 29260 HTTP server ready.","timestamp":"2026-06-13T00:01:11.800Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:11.334Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:11.380Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:11.693Z"}
+{"level":"info","message":"Worker 12532 connected to MongoDB.","timestamp":"2026-06-13T00:01:11.847Z"}
+{"level":"info","message":"Worker 12532 HTTP server ready.","timestamp":"2026-06-13T00:01:11.863Z"}
+{"level":"info","message":"Primary 11852 is running — spawning 8 workers.","timestamp":"2026-06-13T00:01:20.317Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:01:20.399Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.153Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.215Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.447Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.093Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.114Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.370Z"}
+{"level":"info","message":"Worker 376 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.686Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.207Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.260Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.457Z"}
+{"level":"info","message":"Worker 376 HTTP server ready.","timestamp":"2026-06-13T00:01:23.702Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.249Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.275Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.529Z"}
+{"level":"info","message":"Worker 28468 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.766Z"}
+{"level":"info","message":"Worker 9264 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.803Z"}
+{"level":"info","message":"Worker 28468 HTTP server ready.","timestamp":"2026-06-13T00:01:23.801Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.300Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.332Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.645Z"}
+{"level":"info","message":"Worker 26928 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.757Z"}
+{"level":"info","message":"Worker 9264 HTTP server ready.","timestamp":"2026-06-13T00:01:23.838Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.367Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.384Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.670Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.360Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.397Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.698Z"}
+{"level":"info","message":"Worker 28688 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.899Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:23.275Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:23.312Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:23.709Z"}
+{"level":"info","message":"Worker 28688 HTTP server ready.","timestamp":"2026-06-13T00:01:23.913Z"}
+{"level":"info","message":"Worker 26928 HTTP server ready.","timestamp":"2026-06-13T00:01:23.932Z"}
+{"level":"info","message":"Worker 10412 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.950Z"}
+{"level":"info","message":"Worker 13392 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.952Z"}
+{"level":"info","message":"Worker 10412 HTTP server ready.","timestamp":"2026-06-13T00:01:23.980Z"}
+{"level":"info","message":"Worker 13392 HTTP server ready.","timestamp":"2026-06-13T00:01:23.995Z"}
+{"level":"info","message":"Worker 20856 connected to MongoDB.","timestamp":"2026-06-13T00:01:23.997Z"}
+{"level":"info","message":"Worker 20856 HTTP server ready.","timestamp":"2026-06-13T00:01:24.043Z"}
+{"level":"info","message":"Primary 10536 is running — spawning 8 workers.","timestamp":"2026-06-13T00:01:30.983Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:01:31.064Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.329Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.360Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.504Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.366Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.402Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.552Z"}
+{"level":"info","message":"Worker 24724 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.654Z"}
+{"level":"info","message":"Worker 24724 HTTP server ready.","timestamp":"2026-06-13T00:01:33.682Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.432Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.444Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.603Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.456Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.470Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.623Z"}
+{"level":"info","message":"Worker 12680 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.689Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.460Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.481Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.623Z"}
+{"level":"info","message":"Worker 26296 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.779Z"}
+{"level":"info","message":"Worker 12680 HTTP server ready.","timestamp":"2026-06-13T00:01:33.765Z"}
+{"level":"info","message":"Worker 23396 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.776Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.491Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.513Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.658Z"}
+{"level":"info","message":"Worker 23396 HTTP server ready.","timestamp":"2026-06-13T00:01:33.813Z"}
+{"level":"info","message":"Worker 26296 HTTP server ready.","timestamp":"2026-06-13T00:01:33.812Z"}
+{"level":"info","message":"Worker 18776 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.826Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.538Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.548Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.682Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:01:33.548Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:01:33.560Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:01:33.730Z"}
+{"level":"info","message":"Worker 18776 HTTP server ready.","timestamp":"2026-06-13T00:01:33.843Z"}
+{"level":"info","message":"Worker 19104 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.859Z"}
+{"level":"info","message":"Worker 19104 HTTP server ready.","timestamp":"2026-06-13T00:01:33.880Z"}
+{"level":"info","message":"Worker 8244 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.897Z"}
+{"level":"info","message":"Worker 22216 connected to MongoDB.","timestamp":"2026-06-13T00:01:33.902Z"}
+{"level":"info","message":"Worker 8244 HTTP server ready.","timestamp":"2026-06-13T00:01:33.925Z"}
+{"level":"info","message":"Worker 22216 HTTP server ready.","timestamp":"2026-06-13T00:01:33.935Z"}
+{"level":"info","message":"Primary 23352 is running — spawning 8 workers.","timestamp":"2026-06-13T00:02:56.266Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:02:56.419Z"}
+{"level":"info","message":"Primary 16572 is running — spawning 8 workers.","timestamp":"2026-06-13T00:02:59.500Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:02:59.571Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.555Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.574Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.736Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.588Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.603Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.759Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.573Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.604Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.776Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.584Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.603Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.774Z"}
+{"level":"info","message":"Worker 13980 connected to MongoDB.","timestamp":"2026-06-13T00:03:02.891Z"}
+{"level":"info","message":"Worker 13980 HTTP server ready.","timestamp":"2026-06-13T00:03:02.919Z"}
+{"level":"info","message":"Worker 12648 connected to MongoDB.","timestamp":"2026-06-13T00:03:02.921Z"}
+{"level":"info","message":"Worker 9752 connected to MongoDB.","timestamp":"2026-06-13T00:03:02.932Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.594Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.635Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.806Z"}
+{"level":"info","message":"Worker 19804 connected to MongoDB.","timestamp":"2026-06-13T00:03:02.937Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.645Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.667Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.844Z"}
+{"level":"info","message":"Worker 9752 HTTP server ready.","timestamp":"2026-06-13T00:03:02.953Z"}
+{"level":"info","message":"Worker 19804 HTTP server ready.","timestamp":"2026-06-13T00:03:02.976Z"}
+{"level":"info","message":"Worker 12648 HTTP server ready.","timestamp":"2026-06-13T00:03:02.996Z"}
+{"level":"info","message":"Worker 9704 connected to MongoDB.","timestamp":"2026-06-13T00:03:03.005Z"}
+{"level":"info","message":"Worker 3652 connected to MongoDB.","timestamp":"2026-06-13T00:03:03.007Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.658Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.676Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.870Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:02.669Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:02.689Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:02.904Z"}
+{"level":"info","message":"Worker 9704 HTTP server ready.","timestamp":"2026-06-13T00:03:03.031Z"}
+{"level":"info","message":"Worker 3652 HTTP server ready.","timestamp":"2026-06-13T00:03:03.035Z"}
+{"level":"info","message":"Worker 6836 connected to MongoDB.","timestamp":"2026-06-13T00:03:03.071Z"}
+{"level":"info","message":"Worker 26160 connected to MongoDB.","timestamp":"2026-06-13T00:03:03.080Z"}
+{"level":"info","message":"Worker 6836 HTTP server ready.","timestamp":"2026-06-13T00:03:03.085Z"}
+{"level":"info","message":"Worker 26160 HTTP server ready.","timestamp":"2026-06-13T00:03:03.095Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:03:18.208Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:03:18.213Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:03:18.291Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-13T00:03:18.332Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-13T00:03:18.337Z"}
+{"level":"error","message":"Error [ca53467b-d8a9-44ad-b0a8-6536279bae9b]: \"profile.birthday\" is not allowed","timestamp":"2026-06-13T00:03:20.130Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:04:43.433Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:04:43.438Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:04:43.514Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-13T00:04:43.596Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-13T00:04:43.611Z"}
+{"level":"error","message":"Error [26912df2-99bd-4952-9d84-f103c088f2e0]: next is not a function","timestamp":"2026-06-13T00:04:47.352Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:08:07.256Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:08:07.262Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:08:07.370Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-13T00:08:07.426Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-13T00:08:07.433Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:08:10.970Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:08:10.987Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:08:11.066Z"}
+{"level":"info","message":"Connected to MongoDB.","timestamp":"2026-06-13T00:08:11.111Z"}
+{"level":"info","message":"Server running on port 8000","timestamp":"2026-06-13T00:08:11.117Z"}
+{"level":"error","message":"Error [a8e3a85b-f697-4b39-b215-a59300a0a78e]: next is not a function","timestamp":"2026-06-13T00:08:13.543Z"}
+{"level":"info","message":"Primary 32 is running — spawning 8 workers.","timestamp":"2026-06-13T00:11:02.128Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:11:02.216Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.376Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.414Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:04.889Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.629Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.720Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:04.962Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.475Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.662Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:04.990Z"}
+{"level":"info","message":"Worker 20708 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.075Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.719Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.803Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:04.977Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.563Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.733Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:04.992Z"}
+{"level":"info","message":"Worker 24884 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.129Z"}
+{"level":"info","message":"Worker 27364 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.166Z"}
+{"level":"info","message":"Worker 7804 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.166Z"}
+{"level":"info","message":"Worker 4228 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.171Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.800Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.908Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:05.087Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.974Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:05.000Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:05.199Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:04.977Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:04.995Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:05.225Z"}
+{"level":"info","message":"Worker 10056 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.324Z"}
+{"level":"info","message":"Worker 21404 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.339Z"}
+{"level":"info","message":"Worker 20664 connected to MongoDB.","timestamp":"2026-06-13T00:11:05.340Z"}
+{"level":"info","message":"Primary 24608 is running — spawning 8 workers.","timestamp":"2026-06-13T00:11:16.285Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:11:16.383Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:18.906Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:18.950Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.129Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:18.977Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.002Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.198Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:19.000Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.032Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.200Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:18.950Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.017Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.203Z"}
+{"level":"info","message":"Worker 5080 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.326Z"}
+{"level":"info","message":"Worker 13688 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.341Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:18.960Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.012Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.207Z"}
+{"level":"info","message":"Worker 18376 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.363Z"}
+{"level":"info","message":"Worker 28184 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.372Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:19.051Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.089Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.292Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:19.002Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.037Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.268Z"}
+{"level":"info","message":"Worker 15868 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.427Z"}
+{"level":"info","message":"Worker 16016 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.460Z"}
+{"level":"info","message":"Worker 3000 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.461Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:19.207Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:19.262Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:19.466Z"}
+{"level":"info","message":"Worker 20068 connected to MongoDB.","timestamp":"2026-06-13T00:11:19.521Z"}
+{"level":"info","message":"Primary 23972 is running — spawning 8 workers.","timestamp":"2026-06-13T00:11:24.558Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:11:24.623Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.149Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.168Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.342Z"}
+{"level":"info","message":"Worker 5892 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.505Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.191Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.247Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.414Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.187Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.248Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.415Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.238Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.265Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.428Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.214Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.261Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.447Z"}
+{"level":"info","message":"Worker 23784 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.572Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.253Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.277Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.451Z"}
+{"level":"info","message":"Worker 29216 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.580Z"}
+{"level":"info","message":"Worker 29324 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.596Z"}
+{"level":"info","message":"Worker 276 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.602Z"}
+{"level":"info","message":"Worker 11108 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.611Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.383Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.398Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.587Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:27.423Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:27.446Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:27.620Z"}
+{"level":"info","message":"Worker 21456 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.696Z"}
+{"level":"info","message":"Worker 24416 connected to MongoDB.","timestamp":"2026-06-13T00:11:27.712Z"}
+{"level":"error","message":"Worker 29324 died. Spawning replacement...","timestamp":"2026-06-13T00:11:42.624Z"}
+{"level":"info","message":"Primary 16952 is running — spawning 8 workers.","timestamp":"2026-06-13T00:11:46.209Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:11:46.312Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.364Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.382Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.560Z"}
+{"level":"info","message":"Worker 27504 connected to MongoDB.","timestamp":"2026-06-13T00:11:48.709Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.444Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.464Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.622Z"}
+{"level":"info","message":"Worker 22424 connected to MongoDB.","timestamp":"2026-06-13T00:11:48.771Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.531Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.547Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.721Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.453Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.490Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.676Z"}
+{"level":"info","message":"Worker 11544 connected to MongoDB.","timestamp":"2026-06-13T00:11:48.915Z"}
+{"level":"info","message":"Worker 29372 connected to MongoDB.","timestamp":"2026-06-13T00:11:48.918Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.593Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.613Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.842Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.636Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.676Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.896Z"}
+{"level":"info","message":"Worker 20760 connected to MongoDB.","timestamp":"2026-06-13T00:11:48.985Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.670Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.690Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.944Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:11:48.686Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:11:48.743Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:11:48.947Z"}
+{"level":"info","message":"Worker 26844 connected to MongoDB.","timestamp":"2026-06-13T00:11:49.020Z"}
+{"level":"info","message":"Worker 29368 connected to MongoDB.","timestamp":"2026-06-13T00:11:49.066Z"}
+{"level":"info","message":"Worker 28612 connected to MongoDB.","timestamp":"2026-06-13T00:11:49.079Z"}
+{"level":"error","message":"Worker 29372 died. Spawning replacement...","timestamp":"2026-06-13T00:14:24.365Z"}
+{"level":"info","message":"Primary 26876 is running — spawning 8 workers.","timestamp":"2026-06-13T00:14:27.096Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:14:27.264Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:29.961Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:29.957Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:29.989Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:29.989Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.208Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.188Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.064Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.081Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.236Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.026Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.055Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.243Z"}
+{"level":"info","message":"Worker 27156 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.385Z"}
+{"level":"info","message":"Worker 15500 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.385Z"}
+{"level":"info","message":"Worker 1792 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.381Z"}
+{"level":"info","message":"Worker 23352 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.402Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.120Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.138Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.277Z"}
+{"level":"info","message":"Worker 26948 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.409Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.034Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.090Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.263Z"}
+{"level":"info","message":"Worker 8044 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.502Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.331Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.377Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.573Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:14:30.448Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:14:30.484Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:14:30.609Z"}
+{"level":"info","message":"Worker 12176 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.654Z"}
+{"level":"info","message":"Worker 19444 connected to MongoDB.","timestamp":"2026-06-13T00:14:30.670Z"}
+{"level":"error","message":"Error [75835de6-ed08-4652-9b83-fd6b37ba344b]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-13T00:14:37.037Z"}
+{"level":"error","message":"Error [b1cd1553-b70d-4c2a-99db-dd6b18143f25]: Cannot set property query of #<IncomingMessage> which has only a getter","timestamp":"2026-06-13T00:15:59.007Z"}
+{"level":"info","message":"Primary 27864 is running — spawning 8 workers.","timestamp":"2026-06-13T00:16:01.930Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:16:02.088Z"}
+{"level":"info","message":"Primary 20000 is running — spawning 8 workers.","timestamp":"2026-06-13T00:16:04.742Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:16:04.849Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.101Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.125Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.307Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.168Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.186Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.396Z"}
+{"level":"info","message":"Worker 27176 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.488Z"}
+{"level":"info","message":"Worker 9392 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.526Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.157Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.170Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.415Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.248Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.278Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.469Z"}
+{"level":"info","message":"Worker 8012 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.595Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.286Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.319Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.512Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.285Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.304Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.497Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.304Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.345Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.553Z"}
+{"level":"info","message":"Worker 2920 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.644Z"}
+{"level":"info","message":"Worker 9292 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.667Z"}
+{"level":"info","message":"Worker 6488 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.670Z"}
+{"level":"info","message":"Worker 18332 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.692Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:07.436Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:07.468Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:07.645Z"}
+{"level":"info","message":"Worker 10820 connected to MongoDB.","timestamp":"2026-06-13T00:16:07.754Z"}
+{"level":"info","message":"Primary 13528 is running — spawning 8 workers.","timestamp":"2026-06-13T00:16:39.856Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:16:39.966Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:43.398Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:43.470Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:43.938Z"}
+{"level":"info","message":"Worker 3932 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.303Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:43.748Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:43.782Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.223Z"}
+{"level":"info","message":"Worker 24072 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.536Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:43.587Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:43.769Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.206Z"}
+{"level":"info","message":"Worker 27968 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.598Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:43.811Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:44.073Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.387Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:43.786Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:43.997Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.577Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:44.048Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:44.104Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.637Z"}
+{"level":"info","message":"Worker 15952 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.797Z"}
+{"level":"info","message":"Worker 10420 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.906Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:44.413Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:44.464Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:44.693Z"}
+{"level":"info","message":"Worker 26264 connected to MongoDB.","timestamp":"2026-06-13T00:16:44.934Z"}
+{"level":"error","message":"Error [b9b51355-6886-4064-b5c6-62ae05694dc1]: User validation failed: profile: Path `profile` is required.","timestamp":"2026-06-13T00:16:45.090Z"}
+{"level":"info","message":"Worker 17040 connected to MongoDB.","timestamp":"2026-06-13T00:16:45.190Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:16:44.629Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:16:44.654Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:16:45.306Z"}
+{"level":"info","message":"Worker 616 connected to MongoDB.","timestamp":"2026-06-13T00:16:45.498Z"}
+{"level":"info","message":"Primary 25224 is running — spawning 8 workers.","timestamp":"2026-06-13T00:18:36.077Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:18:36.156Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:38.940Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:38.967Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.085Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:38.930Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:38.954Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.078Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:38.977Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:38.992Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.115Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:38.955Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:38.970Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.108Z"}
+{"level":"info","message":"Worker 26716 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.214Z"}
+{"level":"info","message":"Worker 23860 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.217Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:39.004Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:39.017Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.135Z"}
+{"level":"info","message":"Worker 12380 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.255Z"}
+{"level":"info","message":"Worker 12876 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.257Z"}
+{"level":"info","message":"Worker 14568 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.300Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:39.095Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:39.108Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.308Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:39.111Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:39.127Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.395Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:39.167Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:39.179Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:39.465Z"}
+{"level":"info","message":"Worker 16352 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.587Z"}
+{"level":"info","message":"Worker 27652 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.588Z"}
+{"level":"info","message":"Worker 29100 connected to MongoDB.","timestamp":"2026-06-13T00:18:39.622Z"}
+{"level":"error","message":"Worker 23860 died. Spawning replacement...","timestamp":"2026-06-13T00:18:45.129Z"}
+{"level":"info","message":"Primary 14748 is running — spawning 8 workers.","timestamp":"2026-06-13T00:18:46.364Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:18:46.428Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.513Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.533Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.650Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.502Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.513Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.645Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.535Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.548Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.664Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.526Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.537Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.668Z"}
+{"level":"info","message":"Worker 13888 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.750Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.526Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.540Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.673Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.559Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.570Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.700Z"}
+{"level":"info","message":"Worker 2484 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.767Z"}
+{"level":"info","message":"Worker 8684 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.772Z"}
+{"level":"info","message":"Worker 960 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.775Z"}
+{"level":"info","message":"Worker 21380 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.804Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.579Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.592Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.721Z"}
+{"level":"info","message":"Worker 20468 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.819Z"}
+{"level":"info","message":"Worker 13304 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.859Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:18:48.634Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:18:48.647Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:18:48.788Z"}
+{"level":"info","message":"Worker 11508 connected to MongoDB.","timestamp":"2026-06-13T00:18:48.896Z"}
+{"level":"error","message":"Error [9f0e526b-ada3-4915-a2cc-2a5ce09a9575]: Email, password, first name, last name, birthday, and phone are required","timestamp":"2026-06-13T00:18:53.879Z"}
+{"level":"error","message":"Error [c5f4b2db-d2cd-4c70-ad31-35c3ba007f6f]: next is not a function","timestamp":"2026-06-13T00:19:25.269Z"}
+{"level":"error","message":"Error [8f52c199-1288-499c-ae7d-72e6ee50b0c4]: next is not a function","timestamp":"2026-06-13T00:19:26.751Z"}
+{"level":"error","message":"Worker 2484 died. Spawning replacement...","timestamp":"2026-06-13T00:22:58.712Z"}
+{"level":"info","message":"Primary 6016 is running — spawning 8 workers.","timestamp":"2026-06-13T00:23:00.022Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:23:00.100Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.230Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.258Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.394Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.271Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.287Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.423Z"}
+{"level":"info","message":"Worker 4300 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.542Z"}
+{"level":"info","message":"Worker 3828 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.564Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.299Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.319Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.488Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.353Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.366Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.529Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.352Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.363Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.525Z"}
+{"level":"info","message":"Worker 28796 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.654Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.362Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.375Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.552Z"}
+{"level":"info","message":"Worker 20544 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.691Z"}
+{"level":"info","message":"Worker 27296 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.702Z"}
+{"level":"info","message":"Worker 22876 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.705Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.424Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.444Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.621Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:02.404Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:02.428Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:02.612Z"}
+{"level":"info","message":"Worker 23524 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.767Z"}
+{"level":"info","message":"Worker 7392 connected to MongoDB.","timestamp":"2026-06-13T00:23:02.767Z"}
+{"level":"info","message":"Primary 3512 is running — spawning 8 workers.","timestamp":"2026-06-13T00:23:16.282Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:23:16.360Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.636Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.647Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:18.809Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.661Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.687Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:18.838Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.654Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.670Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:18.841Z"}
+{"level":"info","message":"Worker 2620 connected to MongoDB.","timestamp":"2026-06-13T00:23:18.933Z"}
+{"level":"info","message":"Worker 17344 connected to MongoDB.","timestamp":"2026-06-13T00:23:18.971Z"}
+{"level":"info","message":"Worker 26104 connected to MongoDB.","timestamp":"2026-06-13T00:23:18.973Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.701Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.720Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:18.859Z"}
+{"level":"info","message":"Worker 20708 connected to MongoDB.","timestamp":"2026-06-13T00:23:19.031Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.744Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.764Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:18.922Z"}
+{"level":"info","message":"Worker 27692 connected to MongoDB.","timestamp":"2026-06-13T00:23:19.073Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.798Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.811Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:19.025Z"}
+{"level":"info","message":"Worker 9924 connected to MongoDB.","timestamp":"2026-06-13T00:23:19.110Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.839Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.869Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:19.056Z"}
+{"level":"info","message":"Worker 26900 connected to MongoDB.","timestamp":"2026-06-13T00:23:19.133Z"}
+{"level":"info","message":"Auto-mounted module: /api/auth","timestamp":"2026-06-13T00:23:18.932Z"}
+{"level":"info","message":"Auto-mounted module: /api/chat","timestamp":"2026-06-13T00:23:18.944Z"}
+{"level":"info","message":"Auto-mounted module: /api/payments","timestamp":"2026-06-13T00:23:19.094Z"}
+{"level":"info","message":"Worker 19568 connected to MongoDB.","timestamp":"2026-06-13T00:23:19.152Z"}
+{"level":"error","message":"Error [fea0ec52-a5b9-4b3f-843b-39c625951b97]: next is not defined","timestamp":"2026-06-13T00:23:22.984Z"}
+{"level":"error","message":"Worker 19568 died. Spawning replacement...","timestamp":"2026-06-13T00:25:02.143Z"}
+{"level":"info","message":"Primary 29548 is running — spawning 8 workers.","timestamp":"2026-06-13T00:25:03.639Z"}
+{"level":"info","message":"Sticky TCP server listening on port 8000","timestamp":"2026-06-13T00:25:03.783Z"}

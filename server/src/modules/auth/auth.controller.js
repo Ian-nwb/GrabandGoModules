@@ -1,16 +1,21 @@
 const authService = require('./auth.service');
 
 const register = async (req, res) => {
-  const { email, password } = req.body;
-  if (!email || !password) {
-    // You can throw an error here, or create a custom 'AppError' class 
-    // to keep it cleaner
-    const err = new Error('Email and password are required');
+  const { email, password, firstName, middleName, lastName, birthday, phone } = req.body;
+
+  if (!email || !password || !firstName || !lastName || !birthday || !phone) {
+    const err = new Error('Email, password, first name, last name, birthday, and phone are required');
     err.statusCode = 400;
     throw err;
   }
 
-  const result = await authService.registerUser(email, password);
+  const result = await authService.registerUser(email, password, {
+    firstName,
+    middleName,
+    lastName,
+    birthday,
+    phone
+  });
   res.status(201).json({ message: 'User registered successfully', user: result });
 };
 

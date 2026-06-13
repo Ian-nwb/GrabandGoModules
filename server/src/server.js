@@ -5,7 +5,7 @@ const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
 const { createAdapter } = require('@socket.io/cluster-adapter');
-const { setupWorker } = require('@socket.io/sticky');
+const { setupMaster, setupWorker } = require('@socket.io/sticky');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
 const cors = require('cors');
@@ -45,28 +45,24 @@ process.on('uncaughtException', (err) => {
 
 // ─── Primary Process ──────────────────────────────────────────────────────────
 if (cluster.isPrimary) {
-  const net = require('net');
-  const numCPUs = os.cpus().length;
+  const numCPUs = process.env.CLUSTER_WORKERS
+    ? parseInt(process.env.CLUSTER_WORKERS, 10)
+    : os.cpus().length;
 
   logger.info(`Primary ${process.pid} is running — spawning ${numCPUs} workers.`);
 
-  // Sticky-session TCP server: routes each client IP to the same worker
-  // so Socket.IO long-polling handshakes land on the right process
-  const server = net.createServer({ pauseOnConnect: true });
+  const server = http.createServer();
+
+  // setupMaster handles sticky session routing (IP-hash) to workers
+  setupMaster(server, {
+    loadBalancingMethod: 'least-connection'
+  });
 
   const workers = [];
   for (let i = 0; i < numCPUs; i++) {
     const worker = cluster.fork();
     workers.push(worker);
   }
-
-  // Round-robin + sticky by remote address
-  let current = 0;
-  server.on('connection', (connection) => {
-    const worker = workers[current % workers.length];
-    worker.send('sticky-session:connection', connection);
-    current++;
-  });
 
   server.listen(process.env.PORT || 5000, () => {
     logger.info(`Sticky TCP server listening on port ${process.env.PORT || 5000}`);
@@ -75,7 +71,6 @@ if (cluster.isPrimary) {
   cluster.on('exit', (worker) => {
     logger.error(`Worker ${worker.process.pid} died. Spawning replacement...`);
     const newWorker = cluster.fork();
-    // Replace dead worker in the pool
     const idx = workers.indexOf(worker);
     if (idx !== -1) workers[idx] = newWorker;
   });
@@ -91,7 +86,6 @@ if (cluster.isPrimary) {
       origin: process.env.CLIENT_URL || '*',
       credentials: true
     },
-    // Prefer WebSocket; fall back to polling (polling needs sticky sessions above)
     transports: ['websocket', 'polling']
   });
 
@@ -117,8 +111,6 @@ if (cluster.isPrimary) {
   });
 
   app.use(hpp());
-  app.use(mongoSanitize());
-  if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
   app.use('/api/', rateLimit({ windowMs: 15 * 60 * 1000, max: 100 }));
 
@@ -144,7 +136,6 @@ if (cluster.isPrimary) {
     .connect(process.env.MONGODB_URI, { maxPoolSize: 50 })
     .then(() => {
       logger.info(`Worker ${process.pid} connected to MongoDB.`);
-      // Workers don't call server.listen() — the primary's sticky server handles that
       process.on('SIGTERM', () => server.close(() => process.exit(0)));
     })
     .catch((err) => {
